@@ -1,0 +1,1591 @@
+.login-1{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.login-1::after{
+    content: "";
+    height:0;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-1:hover::after{
+    height: 50%;
+}
+.login-1::before{
+    content: "";
+    height:0;
+    width: 100%;
+    background-color: rgb(255, 0, 157);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-1:hover::before{
+    height: 50%;
+}
+
+.login-2{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.login-2::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .4s;
+    z-index: -1;
+}
+.login-2:hover::after{
+    width: 50%;
+   
+}
+.login-2::before{
+    content: "";
+    height: 0%;
+    width: 0%;
+    background-color: rgb(173, 19, 19);
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+    z-index: -1;
+}
+.login-2 .overly{
+    height: 0%;
+    width: 0%;
+    background-color: blueviolet;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+    z-index: -1;
+   
+}
+.login-2:hover .overly{
+    width: 50%;
+    height: 50%;
+}
+.login-2:hover::before{
+    width: 50%;
+    height: 50%;
+}
+.login-3{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.login-3::after{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(0, 255, 76);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-3:hover::after{
+    height: 50%;
+    width: 50%;
+}
+.login-3::before{
+    content: "";
+    height:0;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-3:hover::before{
+    height:100%;
+}
+.login-4{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.login-4::after{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-4:hover::after{
+    width: 50%;
+    height: 100%;
+}
+.login-4::before{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-4:hover::before{
+    width: 50%;
+    height: 100%;
+}
+.login-5{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.login-5:hover{
+    background-color: brown;
+
+}
+.login-5::after{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-5:hover::after{
+    width: 50%;
+    height: 50%;
+}
+.login-5::before{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-5:hover::before{
+    width: 50%;
+    height: 50%;
+}
+.login-6{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.login-6::after{
+    content: "";
+    height:50%;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-6:hover::after{
+    width: 50%;
+}
+.login-6::before{
+    content: "";
+    height:50%;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-6:hover::before{
+    width: 50%;
+} 
+.login-6 .overly{
+    height:0;
+    width: 50%;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-6:hover .overly{
+height: 50%;
+}
+.login-6 .overly2{
+    height:0;
+    width: 50%;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    top:0;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-6:hover .overly2{
+height: 50%;
+}
+.login-7{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+}
+.login-7:hover{
+    color: red;
+    background-color: brown;
+}
+.login-7::after{
+    content: "";
+    height:20%;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-7:hover::after{
+    width: 100%;
+}
+.login-7::before{
+    content: "";
+    height:20%;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-7:hover::before{
+    width: 100%;
+} 
+.login-7 .overly{
+    height:20%;
+    width: 0;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-7:hover .overly{
+width: 100%;
+}
+.login-7 .overly2{
+    height:20%;
+    width: 0;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    top:60%;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-7:hover .overly2{
+width: 100%;
+}
+.login-7 .overly3{
+    height:20%;
+    width: 0;
+    background-color: rgb(255, 0, 179);
+    position: absolute;
+    top:80%;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-7:hover .overly3{
+width: 100%;
+}
+.login-8{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .1s;
+    position: relative;
+    z-index: 1;
+}
+.login-8:hover{
+    background-color: brown;
+}
+.login-8::after{
+    content: "";
+    height:50%;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-8:hover::after{
+    width: 40%;
+}
+.login-8::before{
+    content: "";
+    height:50%;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-8:hover::before{
+    width: 40%;
+} 
+.login-8 .overly{
+    height:50%;
+    width: 0;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-8:hover .overly{
+width: 40%;
+}
+.login-8 .overly2{
+    height:50%;
+    width: 0;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    bottom:0;
+    right: 0;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-8:hover .overly2{
+width: 40%;
+}
+.login-8 .overly3{
+    height:0;
+    width: 20%;
+    background-color: rgb(255, 0, 179);
+    position: absolute;
+    top:0;
+    left: 40%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-8:hover .overly3{
+height: 100%;
+}
+.login-9{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .1s;
+    position: relative;
+    z-index: 1;
+}
+.login-9:hover{
+    background-color: brown;
+}
+.login-9::after{
+    content: "";
+    height:50%;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-9:hover::after{
+    width: 100%;
+}
+.login-9::before{
+    content: "";
+    height:0%;
+    width: 20%;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-9:hover::before{
+    height: 50%;
+} 
+.login-9 .overly{
+    height:0;
+    width:20%;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-9:hover .overly{
+height: 50%;
+}
+.login-9 .overly2{
+    height:0;
+    width:20%;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    bottom:0;
+    left: 40%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-9:hover .overly2{
+height: 50%;
+}
+.login-9 .overly3{
+    height:0%;
+    width: 20%;
+    background-color: rgb(255, 0, 179);
+    position: absolute;
+    bottom:0;
+    left: 60%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-9:hover .overly3{
+height: 50%;
+}
+.login-9 .overly4{
+    height:0;
+    width: 20%;
+    background-color: red;
+    position: absolute;
+    bottom:0;
+    left: 80%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-9:hover .overly4{
+height: 50%;
+}
+
+
+.login-10{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+}
+.login-10:hover{
+    color: red;
+    background-color: brown;
+}
+.login-10::after{
+    content: "";
+    height:0;
+    width: 20%;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-10:hover::after{
+    height: 100%;
+}
+.login-10::before{
+    content: "";
+    height:0;
+    width: 20%;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-10:hover::before{
+    height: 100%;
+} 
+.login-10 .overly{
+    height:0;
+    width: 20%;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-10:hover .overly{
+height: 100%;
+}
+.login-10 .overly2{
+    height:0;
+    width: 20%;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    bottom:0;
+    left: 60%;
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-10:hover .overly2{
+height: 100%;
+}
+.login-10 .overly3{
+    height:0;
+    width: 20%;
+    background-color: rgb(255, 0, 179);
+    position: absolute;
+    top: 0;
+    left: 80%;
+    z-index: -1;
+    transition: 0.4s;  
+}
+.login-10:hover .overly3{
+height: 100%;
+}
+
+
+.login-11{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 40%;
+    overflow: hidden;
+}
+.login-11:hover{
+    color: red;
+    background-color: brown;
+}
+.login-11::after{
+    content: "";
+    height:100%;
+    width: 100%;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    z-index: -2;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    
+}
+.login-11:hover::after{
+    transform: translate(-50% , -50%) scale(1);;
+}
+ .login-11::before{
+    content: "";
+    height:30px;
+    width: 30px;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+}
+.login-11:hover::before{
+    transform: translate(-50% , -50%) scale(1);
+}
+
+.login-12{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+.login-12:hover{
+    color: red;
+    background-color: brown;
+}
+.login-12::after{
+    content: "";
+    height:100%;
+    width: 100%;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    z-index: -2;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12:hover::after{
+    transform: translate(-50% , -50%) scale(1);;
+}
+ .login-12::before{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: -3% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12:hover::before{
+    transform: translate(-50% , -50%) scale(1);
+}
+.login-12 .overly{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(21, 0, 255);
+    position: absolute;
+    top: 77% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12:hover .overly{
+    transform: translate(-50% , -50%) scale(1);
+}
+
+
+.login-11{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 40%;
+    overflow: hidden;
+}
+.login-11:hover{
+    color: red;
+    background-color: brown;
+}
+.login-11::after{
+    content: "";
+    height:100%;
+    width: 100%;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    z-index: -2;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    
+}
+.login-11:hover::after{
+    transform: translate(-50% , -50%) scale(1);;
+}
+ .login-11::before{
+    content: "";
+    height:30px;
+    width: 30px;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+}
+.login-11:hover::before{
+    transform: translate(-50% , -50%) scale(1);
+}
+
+.login-12{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+.login-12:hover{
+    color: red;
+    background-color: brown;
+}
+.login-12::after{
+    content: "";
+    height:100%;
+    width: 100%;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    z-index: -2;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12:hover::after{
+    transform: translate(-50% , -50%) scale(1);;
+}
+ .login-12::before{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: -3% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12:hover::before{
+    transform: translate(-50% , -50%) scale(1);
+}
+.login-12 .overly{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(21, 0, 255);
+    position: absolute;
+    top: 77% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12::after{
+    content: "";
+    height:100%;
+    width: 100%;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    z-index: -2;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12:hover::after{
+    transform: translate(-50% , -50%) scale(1);;
+}
+ .login-12::before{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: -3% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-12:hover::before{
+    transform: translate(-50% , -50%) scale(1);
+}
+.login-12:hover .overly{
+    transform: translate(-50% , -50%) scale(1);
+}
+
+.login-13{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+.login-13:hover{
+    background-color: brown;
+}
+.login-13 .overly{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(255, 153, 0);
+    position: absolute;
+    top: 77% ;
+    left: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;}
+    .login-13::after{
+        content: "";
+        height:100%;
+        width: 100%;
+        background-color: rgb(25, 0, 255);
+        position: absolute;
+        top: 50% ;
+        left: 50%;
+        z-index: -2;
+        transition: 0.4s;
+        transform: translate(-50% , -50%) scale(0);
+        border-radius: 50%;
+    }
+    .login-13:hover::after{
+        transform: translate(-50% , -50%) scale(1);;
+    }
+     .login-13::before{
+        content: "";
+        height:40px;
+        width: 40px;
+        background-color: rgb(255, 0, 208);
+        position: absolute;
+        top: -3% ;
+        left: 50%;
+        z-index: -1;
+        transition: 0.4s;
+        transform: translate(-50% , -50%) scale(0);
+        border-radius: 50%;
+    }
+    .login-13:hover::before{
+        transform: translate(-50% , -50%) scale(1);
+    }
+.login-13:hover .overly{
+    transform: translate(-50% , -50%) scale(1);
+}
+.login-13 .overly-2{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(0, 255, 195);
+    position: absolute;
+    top: 50% ;
+    left: 72%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-13:hover .overly-2{
+    transform: translate(-50% , -50%) scale(1);
+}
+.login-13 .overly-3{
+    content: "";
+    height:40px;
+    width: 40px;
+    background-color: rgb(170, 255, 0);
+    position: absolute;
+    top: 50% ;
+    left: 28%;
+    z-index: -1;
+    transition: 0.4s;
+    transform: translate(-50% , -50%) scale(0);
+    border-radius: 50%;
+}
+.login-13:hover .overly-3{
+    transform: translate(-50% , -50%) scale(1);
+}
+.login-14{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-14:hover{
+    color: red;
+    background-color: brown;
+}
+.login-14::after{
+    content: "";
+    height:0;
+    width: 20%;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-14:hover::after{
+    height: 100%;
+}
+.login-14::before{
+    content: "";
+    height:0;
+    width: 20%;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-14:hover::before{
+    height: 100%;
+} 
+.login-14 .overly{
+    height:0;
+    width: 20%;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-14:hover .overly{
+height: 100%;
+}
+.login-14 .overly-2{
+    height:0;
+    width: 20%;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    bottom:0;
+    left: 60%;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-14:hover .overly-2{
+height: 100%;
+}
+.login-14 .overly-3{
+    height:0;
+    width: 20%;
+    background-color: rgb(255, 0, 179);
+    position: absolute;
+    top: 0;
+    left: 80%;
+    z-index: -2;
+    transition: 0.4s;  
+}
+.login-14:hover .overly-3{
+height: 100%;
+}
+.login-14 .overly-4{
+    height:0;
+    width: 0;
+    background-color: rgb(153, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: -1;
+    transition: 0.4s; 
+} 
+.login-14:hover .overly-4{
+height: 30%;
+width: 71px;
+}
+.login-15{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-15:hover{
+    background-color: brown;
+}
+.login-15::after{
+    content: "";
+    height:0;
+    width: 20%;
+    background-color: rgb(204, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+.login-15:hover::after{
+    height: 100%;
+}
+.login-15::before{
+    content: "";
+    height:0;
+    width: 20%;
+    background-color: rgb(0, 255, 42);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-15:hover::before{
+    height: 100%;
+} 
+.login-15 .overly{
+    height:0;
+    width: 20%;
+    background-color: rgb(255, 0, 166);
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: -2;
+    transition: 0.4s;   
+    border-radius:50% ;
+}
+.login-15:hover .overly{
+height: 100%;
+}
+.login-15 .overly-2{
+    height:0;
+    width: 20%;
+    background-color: rgb(255, 123, 0);
+    position: absolute;
+    bottom:0;
+    left: 60%;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-15:hover .overly-2{
+height: 100%;
+}
+.login-15 .overly-3{
+    height:0;
+    width: 20%;
+    background-color: rgb(64, 0, 255);
+    position: absolute;
+    top: 0;
+    left: 80%;
+    z-index: -2;
+    transition: 0.4s;  
+    border-radius: 50%;
+}
+.login-15:hover .overly-3{
+height: 100%;
+}
+.login-16{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-16:hover{
+    color: red;
+    background-color: brown;
+}
+.login-16::after{
+    content: "";
+    height:20%;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-16:hover::after{
+    width: 100%;
+}
+.login-16::before{
+    content: "";
+    height:20%;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-16:hover::before{
+    width: 100%;
+} 
+.login-16 .overly{
+    height:20%;
+    width: 0;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-16:hover .overly{
+width: 100%;
+}
+.login-16 .overly-2{
+    height:20%;
+    width: 0;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    top:60%;
+    right: 0;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-16:hover .overly-2{
+width: 100%;
+}
+.login-16 .overly-3{
+    height:20%;
+    width: 0;
+    background-color: rgb(255, 0, 179);
+    position: absolute;
+    top:80%;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-16:hover .overly-3{
+width: 100%;
+}
+.login-16 .overly-4{
+    height:20%;
+    width: 0;
+    background-color: brown;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-16:hover .overly-4{
+height: 100%;
+width: 71px;
+}
+
+
+.login-17{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-17:hover{
+    color: red;
+    background-color: brown;
+}
+.login-17::after{
+    content: "";
+    height:20%;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-17:hover::after{
+    width: 100%;
+}
+.login-17::before{
+    content: "";
+    height:20%;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-17:hover::before{
+    width: 100%;
+} 
+.login-17 .overly{
+    height:20%;
+    width: 0;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-17:hover .overly{
+width: 100%;
+}
+.login-17 .overly-2{
+    height:20%;
+    width: 0;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    top:60%;
+    right: 0;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-17:hover .overly-2{
+width: 100%;
+}
+.login-17 .overly-3{
+    height:20%;
+    width: 0;
+    background-color: rgb(255, 0, 179);
+    position: absolute;
+    top:80%;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-17:hover .overly-3{
+width: 100%;
+}
+.login-17 .overly-4{
+    height:20%;
+    width: 0;
+    background-color: brown;
+    position: absolute;
+    top:0;
+    left: -5px;
+    transform: translateX(-50%);
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-17:hover .overly-4{
+height: 100%;
+width: 71px;
+}
+.login-17 .overly-5{
+    height:20%;
+    width: 0;
+    background-color: brown;
+    position: absolute;
+    top:0;
+    right:-76px;
+    transform: translateX(-50%);
+    z-index: -1;
+    transition: 0.4s;   
+}
+.login-17:hover .overly-5{
+height: 100%;
+width: 71px;
+}
+.login-18{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-18:hover{
+    background-color: brown;
+
+}
+.login-18::after{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-18:hover::after{
+    width: 50%;
+    height: 50%;
+}
+.login-18::before{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-18:hover::before{
+    width: 50%;
+    height: 50%;
+}
+.login-18 .overly{
+    height:100%;
+    width: 72px;
+    background-color:red;
+    position: absolute;
+    top:0;
+    left: 66px;
+    transform: translateX(-50%) scale(0);
+    z-index: -1;
+    transition: 0.4s;   
+    border-radius: 50%;
+}
+.login-18:hover .overly{
+    transform: translateX(-50%) scale(1);
+}
+
+
+.login-19{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-19:hover{
+    background-color: brown;
+
+}
+.login-19::after{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-19:hover::after{
+    width: 50%;
+    height: 50%;
+}
+.login-19::before{
+    content: "";
+    height:0;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.login-19:hover::before{
+    width: 50%;
+    height: 50%;
+}
+.login-19 .overly{
+    height:15px;
+    width: 15px;
+    background-color:red;
+    position: absolute;
+    top:3.5px;
+    left: 95px;
+    transform: translateX(-50%) scale(0);
+    z-index: -1;
+    transition: 0.4s;   
+    border-radius: 50%;
+}
+.login-19:hover .overly{
+    transform: translateX(-50%) scale(1);
+}
+.login-19 .overly-2{
+    height:15px;
+    width: 15px;
+    background-color:red;
+    position: absolute;
+    bottom:3.5px;
+    right:78px;
+    transform: translateX(50%) scale(0);
+    z-index: -1;
+    transition: 0.4s;   
+    border-radius: 50%;
+}
+.login-19:hover .overly-2{
+    transform: translateX(-50%) scale(1);
+}
+.login-20{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px 30px;
+    display: inline-block;
+    transition: .4s;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-20:hover{
+    background-color: brown;
+}
+.login-20::after{
+    content: "";
+    height:50%;
+    width: 0;
+    background-color: rgb(0, 255, 47);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-20:hover::after{
+    width: 50%;
+}
+.login-20::before{
+    content: "";
+    height:50%;
+    width: 0;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;
+}
+.login-20:hover::before{
+    width: 50%;
+} 
+.login-20 .overly{
+    height:0;
+    width: 50%;
+    background-color: rgb(255, 149, 0);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-20:hover .overly{
+height: 50%;
+}
+.login-20 .overly-2{
+    height:0;
+    width: 50%;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    top:0;
+    left: 50%;
+    z-index: -2;
+    transition: 0.4s;   
+}
+.login-20:hover .overly-2{
+height: 50%;
+}
+.login-20 .overly-3{
+    height:0;
+    width: 0;
+    background-color:red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: -1;
+    transition: 0.4s; 
+} 
+.login-20:hover .overly-3{
+height: 30%;
+width: 71px;
+}
+
+
